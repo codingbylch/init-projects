@@ -1,0 +1,23 @@
+{
+  "name": "goto-wx",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "source": "src/index.ts",
+  "exports": "./dist/foo.modern.js",
+  "main": "./dist/foo.cjs",
+  "module": "./dist/foo.module.js",
+  "unpkg": "./dist/foo.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "microbundle": "^0.13.3",
+    "promise-polyfill": "^8.2.0"
+  }
+}
